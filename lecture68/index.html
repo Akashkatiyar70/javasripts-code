@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            height: 34px;
+            width: 49px;
+            margin: 34px;
+            padding: 34px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">Bhupender jogi 1</div>
+        <div class="box">Bhupender jogi 2</div>
+        <div id="red" class="box">Bhupender jogi 2.5</div>
+        <div class="box">Bhupender jogi 3</div>
+        <div class="box">Bhupender jogi 4</div>
+        <div class="box">Bhupender jogi 5</div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
+<!--document.getElementsByTagName("div")
+HTMLCollection { 0: div.container, 1: div.box, 2: div.box, 3: div#red.box, 4: div.box, 5: div.box, 6: div.box
+, length: 7, … }
+
+e= document.getElementsByTagName("div")
+HTMLCollection { 0: div.container, 1: div.box, 2: div.box, 3: div#red.box, 4: div.box, 5: div.box, 6: div.box
+, length: 7, … }
+
+e[4].matches("redbox")
+false
+e[3].closest("redbox")
+null
+e[3].closest(".container")
+<div class="container">
+
+e[3].closest("html")
+<html lang="en">
+
+document.querySelector(".container").contains(e[2])
+true
+document.querySelector(".container").contains(document.querySelector("body"))
+false
+document.querySelector(".container").contains(document.querySelector("container"))
+false
+document.querySelector(".container").contains(document.querySelector(".container"))
+true -->

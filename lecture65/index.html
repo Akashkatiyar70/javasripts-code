@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>write a program to calculate factorial of a number using reduce and using for loops</p>
+    <script>
+        const factorialOf = integer => {
+            let factorial = 1;
+
+            for (let i = 1; i <= integer; i++) {
+                factorial *= i;
+            }
+
+            return factorial;
+        }
+        console.log(factorialOf(2));  // 2
+        console.log(factorialOf(5));  // 120
+        console.log(factorialOf(5));  // 24
+    </script>
+</body>
+
+</html>

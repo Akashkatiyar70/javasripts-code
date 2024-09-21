@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container red bggreen">
+        <div class="box" style="display:flex;" data-createdby="Akash" data-conceptby="Katiyar">hey I am A Box</div>
+        <div class="box">Hey I Am Akash</div>
+        <script>
+            // let div = document.createElement("div");
+            // div.innerHTML = "I have been inserted <b> by Akash</b>"
+            // div.setAttribute("class", "created");
+            // // document.querySelector(".container").append(div)
+            // // document.querySelector(".container").after(div)
+            // document.querySelector(".container").before(div)
+            let cont = document.querySelector(".container")
+            cont.insertAdjacentHTML("afterend", "<b> I am under the water. please help me here too much raining...... iuuuuuoooo</b>")
+
+
+
+
+
+        </script>
+    </div>
+</body>
+
+</html>
+<!-- document.querySelector(".box")
+<div class="box">
+
+document.querySelector(".box").innerHTML
+"hey I am A Box"
+document.querySelector(".container").innerHTM
+undefined
+document.querySelector(".box").innerHTML
+"hey I am A Box"
+document.querySelector(".box").innerText
+"hey I am A Box"
+document.querySelector(".container").innerText
+"hey I am A Box"
+document.querySelector(".box").outerHTML
+'<div class="box">hey I am A Box</div>'
+document.querySelector(".box").tagName
+"DIV"
+document.querySelector(".box").nodeName
+"DIV"
+document.querySelector(".box").textContent
+"hey I am A Box"
+document.querySelector(".box").hidden
+false
+document.querySelector(".box").hidden = "true"
+"true"  
+
+document.querySelector(".box").innerHTML = "Hey I Am Akash"
+"Hey I Am Akash
+
+document.querySelector(".box").hasAttribute("style")
+true
+document.querySelector(".box").getAttribute("style")
+"display:flex;"
+document.querySelector(".box").setAttribute("style")
+Uncaught TypeError: Element.setAttribute: At least 2 arguments required, but only 1 passed
+    <anonymous> debugger eval code:1
+debugger eval code:1:32
+    <anonymous> debugger eval code:1
+document.querySelector(".box").setAttribute("style","display:inline")
+undefined 
+
+document.designMode ='on' 
+live site changes
+
+document.querySelector(".box").dataset
+DOMStringMap { createdby → "Akash" }
+
+document.querySelector(".container").classList
+DOMTokenList(3) [ "container", "red", "bggreen" ]
+
+document.querySelector(".container").className
+"container red bggreen"
+document.querySelector(".container")classList.add("akash")
+Uncaught SyntaxError: unexpected token: identifier
+debugger eval code:1:36
+document.querySelector(".container").classList("Akash")
+Uncaught TypeError: document.querySelector(...).classList is not a function
+    <anonymous> debugger eval code:1
+debugger eval code:1:38
+document.querySelector(".container").classList.add("akash")
+undefined
+document.querySelector(".container").classList.remove("akash")
+undefined
+document.querySelector(".container").classList.remove("red")
+undefined
+document.querySelector(".container").classList.add("red")
+undefined
+document.querySelector(".container").classList.toggle("red")
+false 
+-->
